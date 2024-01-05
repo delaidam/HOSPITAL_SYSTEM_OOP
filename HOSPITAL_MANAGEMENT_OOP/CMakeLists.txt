@@ -4,4 +4,7 @@ project(HOSPITAL_MANAGEMENT_OOP)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(HOSPITAL_MANAGEMENT_OOP main.cpp
-        Login.cpp Login.h)
+        Login.cpp Login.h
+        Hospital.cpp Hospital.h
+        Apoteka.cpp Apoteka.h
+        )

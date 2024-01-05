@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"
+			"value" : "c:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP"
+			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"
+			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"
 		},
 		{
 			"name" : "HOSPITAL_MANAGEMENT_OOP_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP"
+			"value" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP"
 		}
 	],
 	"kind" : "cache",
