@@ -17,8 +17,8 @@ private:
     string room_type;
 public:
     Soba();
-    friend istream& operator>>(istream&,Soba&);
-    friend ostream& operator<<(ostream&,Soba&);
+    friend istream& operator>>(istream& stream,Soba& s);
+    friend ostream& operator<<(ostream& stream,Soba& s);
     void display_rooms();
     void set_free_r(int );
     void free_room();

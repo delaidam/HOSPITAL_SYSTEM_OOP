@@ -87,34 +87,6 @@ void display_all_doctors()
     }
 }
 
-void create_Patient()
-{
-    ofstream pout("Patients.txt");
-
-    pout << "Tom han" << endl;
-    pout << "123 block 3"<<endl;
-    pout << "43"<<endl;
-    pout << "M"<<endl;
-    pout << "0333-12312312" << endl;
-    pout << "cough"<<endl;
-    pout << "12:00"<<endl;
-    pout << "2:00"<<endl;
-    pout <<  "1200"<<endl;
-    pout << "1"<<endl;
-
-    pout << "billy han" << endl;
-    pout << "231 block 31" << endl;
-    pout << "33" << endl;
-    pout << "M" << endl;
-    pout << "0334-112803992" << endl;
-    pout << "flu" << endl;
-    pout << "8:00" << endl;
-    pout << "1:00" << endl;
-    pout << "1600" << endl;
-    pout << "2" << endl;
-
-
-}
 
 int main()
 {
@@ -122,8 +94,9 @@ int main()
 
 
     Login Acc;
+    Room soba1;
     Acc.disp();
-
+    soba1.display_rooms();
     create_doctor_surgeon_file();
     create_Patient();
     create_staff_file();
