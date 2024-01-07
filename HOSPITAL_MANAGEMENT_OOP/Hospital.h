@@ -6,8 +6,8 @@
 #include<string>
 #include<iostream>
 #include"Apoteka.h"
-#include"Room.h"
-#include"Person.h"
+#include"Soba.h"
+#include"Osoba.h"
 using namespace std;
 
 class Hospital
@@ -17,14 +17,14 @@ private:
     const string address;
     const string phone_num;
     int choose;
-    Pharmacy pharmacy;
-    Room room;
-    Person *person;
+    Apoteka pharmacy;
+    Soba room;
+    Osoba *person;
 
 public:
 
     Hospital();
-    Hospital(Person &);
+    Hospital(Osoba &);
     void set_choose(int);
     friend istream& operator>>(istream&,Hospital&);
     friend ostream& operator<<(ostream&,Hospital&);

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\HOSPITAL_MANAGEMENT_OOP" -B "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP" -B "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug
+-- Build files have been written to: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug
