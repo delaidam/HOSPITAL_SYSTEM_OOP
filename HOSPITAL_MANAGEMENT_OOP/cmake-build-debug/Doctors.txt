@@ -1,2 +1,5 @@
-Afan Ceco  Odmut 43  M  061-089-879  11:22-12:00  7 2500 Opsti hirurg  
+Afan Ceco  Odmut 43  M  061-089-879  11:22-12:00  7 2500 Psihijatar  
 Sanid Muhic  Travnicka  43  F  062-410-410  1:22-5:00  9 5000  Neurohirurg 
+Amila Suljic  Jalija  28  F  063-048-275  9:00-3:00  5 3500  Dermatolog 
+Emina Spahic  Crkvice  35  F  061-352-876  8:00-5:00  10 5500  Kardiolog 
+Nadja Basic  Radakovo  27  F  062-225-883  12:00-7:00  11 2800  Patolog 

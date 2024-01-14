@@ -5,7 +5,7 @@ M
 061576487
 11:00-1:00
 500
-vozac
+Vozac
 Lejla Buro
 Jalija
 33
@@ -13,4 +13,20 @@ F
 062785098
 2:00=5:00
 800
-vozacica
+Vozacica
+Edina Zec
+Bilmisce
+50
+F
+065432109
+8:00-4:00
+1000
+Spremacica
+Adnan Music
+Radakovo
+58
+M
+063987654
+9:00-5:00
+1200
+Portir

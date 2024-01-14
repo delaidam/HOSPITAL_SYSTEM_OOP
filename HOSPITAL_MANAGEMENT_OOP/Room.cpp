@@ -1,11 +1,6 @@
 #include "Room.h"
 #include <memory>
-/**
- * room_arr = std::make_unique<int*[]>(10);
-for (int i = 0; i < 10; i++) {
-    room_arr[i] = std::make_unique<int[]>(10);
-}
- */
+
 Room::Room():total_rooms(10)
 {
     room_arr = new int*[10];
@@ -26,9 +21,13 @@ Room::Room():total_rooms(10)
 
     room_arr[0][0] = 0;
     room_arr[0][1] = 0;
+    room_arr[0][2] = 0;
+    room_arr[0][3] = 0;
+    room_arr[0][4] = 0;
 
 
 }
+
 void Room::free_room()
 {
     int count = 0;
@@ -98,6 +97,8 @@ int Room::checK_room_avail(int input)
     }
     return check;
 }
+
+
 Room::~Room()
 {
 }

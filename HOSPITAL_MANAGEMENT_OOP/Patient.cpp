@@ -87,11 +87,11 @@ void Patient::discharge_patient()
 		getline(input, temp_room[i]);
 	}
 	cout << "Otpusti pacijenta na osnovu: " << endl;
-	cout << "1) imena " << endl << "2) prebivalista" << endl;
+	cout << "1) Imena " << endl << "2) Prebivalista" << endl;
 	int choice = 0;
 	cin >> choice;
 	int index = 0;
-	if (choice == 1) // by name
+	if (choice == 1)
 	{
 		int check = 0;
 		cout << "Unesite ime: " << endl;
@@ -205,7 +205,7 @@ void Patient::search_patient()
     cin >> choose;
     ifstream pscan("Patients.txt");
 
-    if (choose==1)// by name
+    if (choose==1)
     {
         int flag = 0;
         char* name = new char[30];
@@ -257,7 +257,7 @@ void Patient::search_patient()
             cout << "Nije pronadjena!" << endl;
         }
     }
-    else if (choose==2) // by residence
+    else if (choose==2)
     {
         int flag = 0;
 

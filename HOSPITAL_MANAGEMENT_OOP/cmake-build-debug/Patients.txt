@@ -3,7 +3,7 @@ Jalija 3
 43
 F
 063-576-096
-gripa
+Gripa
 12:00
 2:00
 1200
@@ -13,8 +13,38 @@ Dzemalabb
 33
 M
 061-066-991
-flu
+Flu
 8:00
 1:00
 1600
 2
+Emina Karic
+Tuzla
+55
+F
+063-111-222
+Aritmije
+9:15
+14:30
+2500
+3
+Haris Civic
+Sarajevo
+40
+M
+066-333-444
+Alergija
+11:45
+16:00
+1800
+4
+Selma Dizdar
+Zenica
+35
+F
+061-555-666
+Migrena
+13:30
+18:45
+1200
+5

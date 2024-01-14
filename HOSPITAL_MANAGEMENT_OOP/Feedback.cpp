@@ -18,7 +18,7 @@ void Feedback::giveFeedback()  {
 
 
     if (mark_entry < 1 || mark_entry > 5) {
-        std::cout << "Nevažeći unos ocjene.\n";
+        std::cout << "Nevazeci unos ocjene.\n";
         return;
     }
 
@@ -35,7 +35,7 @@ void Feedback::giveFeedback()  {
 }
 
 void Feedback::displayFeedback() {
-    std::cout << "OcJene i komentari za doktora " << doctor_name << ":\n";
+    std::cout << "Ocjene i komentari za doktora " << doctor_name << ":\n";
 
     for (size_t i = 0; i < marks.size(); ++i) {
         std::string markText;

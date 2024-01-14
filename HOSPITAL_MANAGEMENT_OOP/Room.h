@@ -4,12 +4,13 @@
 #include<string>
 #include<fstream>
 #include<vector>
+#include<memory>
 using namespace std;
 
 class Room
 {
 private:
-	int **room_arr;
+    int **room_arr;
 	const int total_rooms;
 	int free_r;
 	string room_type;

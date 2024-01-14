@@ -1,5 +1,5 @@
 #include "Pharmacy.h"
-
+#include <iomanip>
 Pharmacy::Pharmacy():floor(2)
 {
 	choose = 0;

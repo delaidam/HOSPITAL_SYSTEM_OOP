@@ -34,7 +34,7 @@ void create_doctor_surgeon_file()
     docout << "11:22-12:00  ";
     docout << "7 ";
     docout << "2500 ";
-    docout << "Opsti hirurg  ";
+    docout << "Psihijatar  ";
     docout << endl;
 
     docout << "Sanid Muhic  ";
@@ -46,6 +46,39 @@ void create_doctor_surgeon_file()
     docout << "9 ";
     docout << "5000  ";
     docout << "Neurohirurg ";
+    docout << endl;
+
+    docout << "Amila Suljic  ";
+    docout << "Jalija  ";
+    docout << "28  ";
+    docout << "F  ";
+    docout << "063-048-275  ";
+    docout << "9:00-3:00  ";
+    docout << "5 ";
+    docout << "3500  ";
+    docout << "Dermatolog ";
+    docout << endl;
+
+    docout << "Emina Spahic  ";
+    docout << "Crkvice  ";
+    docout << "35  ";
+    docout << "F  ";
+    docout << "061-352-876  ";
+    docout << "8:00-5:00  ";
+    docout << "10 ";
+    docout << "5500  ";
+    docout << "Kardiolog ";
+    docout << endl;
+
+    docout << "Nadja Basic  ";
+    docout << "Radakovo  ";
+    docout << "27  ";
+    docout << "F  ";
+    docout << "062-225-883  ";
+    docout << "12:00-7:00  ";
+    docout << "11 ";
+    docout << "2800  ";
+    docout << "Patolog ";
     docout << endl;
 }
 void create_staff_file()
@@ -59,7 +92,7 @@ void create_staff_file()
     pout << "061576487" << endl;
     pout << "11:00-1:00"<<endl;
     pout << "500"<<endl;
-    pout << "vozac"<<endl;
+    pout << "Vozac"<<endl;
 
 
     pout << "Lejla Buro" << endl;
@@ -69,8 +102,25 @@ void create_staff_file()
     pout << "062785098" << endl;
     pout << "2:00=5:00" << endl;
     pout << "800" << endl;
-    pout << "vozacica" << endl;
+    pout << "Vozacica" << endl;
 
+    pout << "Edina Zec" << std::endl;
+    pout << "Bilmisce" << std::endl;
+    pout << "50" << std::endl;
+    pout << "F" << std::endl;
+    pout << "065432109" << std::endl;
+    pout << "8:00-4:00" << std::endl;
+    pout << "1000" << std::endl;
+    pout << "Spremacica" << std::endl;
+
+    pout << "Adnan Music" << std::endl;
+    pout << "Radakovo" << std::endl;
+    pout << "58" << std::endl;
+    pout << "M" << std::endl;
+    pout << "063987654" << std::endl;
+    pout << "9:00-5:00" << std::endl;
+    pout << "1200" << std::endl;
+    pout << "Portir" << std::endl;
 }
 
 void update_doctor_file(char *type, string time /*(string)*/, int cab, double f/*fees (double)*/, char* name, char* res, int ag/*age (int)*/, char g, string con /*(string)*/)
@@ -105,19 +155,16 @@ void display_all_doctors()
         istringstream iss(data);
         string ime, adresa, godine, spol, tel, vrijeme, ordinacija, plata, spec;
 
-        // Učitajte ime i adresa zajedno, ako ima dvije riječi za ime
         iss >> ime;
-        if (iss.peek() != '\n') // Provjeri da li ima više riječi za ime
+        if (iss.peek() != '\n')
         {
             string druga_rijec;
             iss >> druga_rijec;
             ime = ime + " " + druga_rijec;
         }
 
-        // Učitajte ostale podatke pojedinačno
         iss >> adresa >> godine >> spol >> tel >> vrijeme >> ordinacija >> plata >> spec;
 
-        // Ispis podataka sa odgovarajućim poravnanjem
         cout << left << setw(20) << ime << setw(10) << adresa << setw(6) << godine << setw(6) << spol
              << setw(15) << tel << setw(10) << vrijeme << setw(14) <<"   "+ ordinacija << setw(8) << plata << setw(10) << spec << endl;
         cout << "************************************************************************************" << endl;
@@ -135,7 +182,7 @@ void create_Patient()
     pout << "43"<<endl;
     pout << "F"<<endl;
     pout << "063-576-096" << endl;
-    pout << "gripa"<<endl;
+    pout << "Gripa"<<endl;
     pout << "12:00"<<endl;
     pout << "2:00"<<endl;
     pout <<  "1200"<<endl;
@@ -146,12 +193,44 @@ void create_Patient()
     pout << "33" << endl;
     pout << "M" << endl;
     pout << "061-066-991" << endl;
-    pout << "flu" << endl;
+    pout << "Flu" << endl;
     pout << "8:00" << endl;
     pout << "1:00" << endl;
     pout << "1600" << endl;
     pout << "2" << endl;
 
+    pout << "Emina Karic" << std::endl;
+    pout << "Tuzla" << std::endl;
+    pout << "55" << std::endl;
+    pout << "F" << std::endl;
+    pout << "063-111-222" << std::endl;
+    pout << "Aritmije" << std::endl;
+    pout << "9:15" << std::endl;
+    pout << "14:30" << std::endl;
+    pout << "2500" << std::endl;
+    pout << "3" << std::endl;
+
+    pout << "Haris Civic" << std::endl;
+    pout << "Sarajevo" << std::endl;
+    pout << "40" << std::endl;
+    pout << "M" << std::endl;
+    pout << "066-333-444" << std::endl;
+    pout << "Alergija" << std::endl;
+    pout << "11:45" << std::endl;
+    pout << "16:00" << std::endl;
+    pout << "1800" << std::endl;
+    pout << "4" << std::endl;
+
+    pout << "Selma Dizdar" << std::endl;
+    pout << "Zenica" << std::endl;
+    pout << "35" << std::endl;
+    pout << "F" << std::endl;
+    pout << "061-555-666" << std::endl;
+    pout << "Migrena" << std::endl;
+    pout << "13:30" << std::endl;
+    pout << "18:45" << std::endl;
+    pout << "1200" << std::endl;
+    pout << "5" << std::endl;
 
 }
 
@@ -234,7 +313,7 @@ int main() {
                 system("cls");
                 cout << "\t\t\t\t\t**********************" << endl;
                 cout << "\t\t\t\t\t1) Dodaj doktora" << endl;
-                cout << "\t\t\t\t\t 2) Popis doktora " << endl;
+                cout << "\t\t\t\t\t2) Popis doktora " << endl;
                 cout << "\t\t\t\t\t**********************" << endl;
                 int ch = 0;
                 cin >> ch;
@@ -243,7 +322,7 @@ int main() {
                     cout << "\t\t\t\t\t Tip doktora:" << endl;
                     cout << "\t\t\t\t\t1) Hirurg" << endl;
                     cout << "\t\t\t\t\t2) Ginekolog" << endl;
-                    cout << "\t\t\t\t\t 3) Pedijatar" << endl;
+                    cout << "\t\t\t\t\t3) Pedijatar" << endl;
                     cout << "\t\t\t\t\t*******************" << endl;
                     int ch2 = 0;
                     cin >> ch2;
@@ -289,7 +368,7 @@ int main() {
 
                         cin.ignore();
                         char *name = new char[30];
-                        cout << "Unesite ime: " << endl;
+                        cout << "Unesite ime i prezime: " << endl;
                         cin.getline(name, 30);
 
                         char *res = new char[30];
@@ -364,7 +443,7 @@ int main() {
 
                         cin.ignore();
                         char *name = new char[30];
-                        cout << "Unesite ime: " << endl;
+                        cout << "Unesite ime i prezime: " << endl;
                         cin.getline(name, 30);
 
                         char *res = new char[30];
@@ -439,7 +518,7 @@ int main() {
 
                         cin.ignore();
                         char *name = new char[30];
-                        cout << "Unesite ime: " << endl;
+                        cout << "Unesite ime i prezime: " << endl;
                         cin.getline(name, 30);
 
                         char *res = new char[30];
@@ -483,7 +562,7 @@ int main() {
 
                 system("pause");
                 system("cls");
-                cout << "1) Dodaj pacijenta" << endl << "2) Pregled pacijenata:" << endl << "3) Trazenje  pacijenta "
+                cout << "1) Dodaj pacijenta" << endl << "2) Pregled pacijenata" << endl << "3) Trazenje  pacijenta "
                      << endl << "4) Pregled soba" << endl << "5) Otpustanje pacijenata" << endl;
                 int ch = 0;
                 cin >> ch;
@@ -515,11 +594,12 @@ int main() {
                     int check = 0;
                     int r;
                     do {
-                        cout << "Unesite broj sobe za smještaj pacijenta: " << endl;
+                        cout << "Unesite broj sobe za smjestaj pacijenta: " << endl;
                         cin >> r;
 
+
                         if (!cin) {
-                            cout << "Pogrešan unos!" << endl;
+                            cout << "Pogresan unos!" << endl;
                             cin.clear();
                             cin.ignore();
                             continue;
@@ -528,16 +608,14 @@ int main() {
                         check = room.checK_room_avail(r);
 
                         if (check == 0) {
-                            cout << "Soba već zauzeta, pokušajte ponovo!" << endl;
+                            cout << "Soba vec zauzeta, pokusajte ponovo!" << endl;
                         }
 
                     } while (check == 0 || !cin);
 
-
-
                     cin.ignore();
                     char *name = new char[30];
-                    cout << "Unesite ime: " << endl;
+                    cout << "Unesite ime i prezime: " << endl;
                     cin.getline(name, 30);
 
                     char *res = new char[30];
@@ -551,7 +629,7 @@ int main() {
                         cin >> ag;
 
                         if (!cin) {
-                            cout << "Pogrešan unos" << endl;
+                            cout << "Pogresan unos" << endl;
                             cin.clear();
                             cin.ignore();
                             cout << "Unesite godine: " << endl;
@@ -637,7 +715,7 @@ int main() {
                         getline(cin, work);
                         //cin.ignore();
                         char *name = new char[30];
-                        cout << "Unesite ime: " << endl;
+                        cout << "Unesite ime i prezime: " << endl;
                         cin.getline(name, 30);
 
                         char *res = new char[30];
