@@ -1,0 +1,116 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cmake.exe",
+			"cpack" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cpack.exe",
+			"ctest" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/ctest.exe",
+			"root" : "C:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/share/cmake-3.23"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 23,
+			"patch" : 2,
+			"string" : "3.23.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+<<<<<<<< HEAD:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-14T08-55-55-0267.json
+			"jsonFile" : "codemodel-v2-73f07df8b1c42c0ab576.json",
+========
+			"jsonFile" : "codemodel-v2-cba35ddae557b7470173.json",
+>>>>>>>> 32b41ed582631c2f22c100a01220d93eb78ce735:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-06T20-59-40-0443.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-483854f48aa7208367b3.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-f30d1a2cbcabbe72f83e.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-1dae79f0f28aa62519d3.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+			"jsonFile" : "cache-v2-483854f48aa7208367b3.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-f30d1a2cbcabbe72f83e.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+<<<<<<<< HEAD:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-14T08-55-55-0267.json
+			"jsonFile" : "codemodel-v2-73f07df8b1c42c0ab576.json",
+========
+			"jsonFile" : "codemodel-v2-cba35ddae557b7470173.json",
+>>>>>>>> 32b41ed582631c2f22c100a01220d93eb78ce735:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-06T20-59-40-0443.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 4
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-1dae79f0f28aa62519d3.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

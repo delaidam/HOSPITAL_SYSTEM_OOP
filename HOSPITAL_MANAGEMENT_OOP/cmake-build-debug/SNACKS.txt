@@ -1,0 +1,7 @@
+SNACKS		Kolicina	Cijena
+Cips		 10		 3
+Voda		 10		 2
+Cola		 10		 3
+Keks		 10		 4
+Caj		 10		 2
+Sok		 10		 3

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="noviakobogdaposljednji"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noviakobogdaposljednji">
+				<Option output="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/noviakobogdaposljednji.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 noviakobogdaposljednji"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noviakobogdaposljednji/fast">
+				<Option output="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/noviakobogdaposljednji.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 noviakobogdaposljednji/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Account.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Account.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Child_Specialist.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Child_Specialist.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Doctor.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Doctor.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/DoctorsSupport.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/DoctorsSupport.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Feedback.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Feedback.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Gynecologist.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Gynecologist.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Hospital Management System.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Hospital.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Hospital.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Medicine.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Medicine.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Patient.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Patient.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Person.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Person.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Pharmacy.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Pharmacy.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Receptionist.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Receptionist.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Room.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Room.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Snacks.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Snacks.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Staff.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Staff.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Surgeon.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Surgeon.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Worker.cpp">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/Worker.h">
+			<Option target="noviakobogdaposljednji"/>
+		</Unit>
+		<Unit filename="C:/Users/smajl/Desktop/version203/noviakobogdaposljednji_2/noviakobogdaposljednji/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

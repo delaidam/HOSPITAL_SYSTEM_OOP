@@ -1,0 +1,64 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HOSPITAL_MANAGEMENT_OOP",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HOSPITAL_MANAGEMENT_OOP::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-73f07df8b1c42c0ab576.json
+					"jsonFile" : "target-HOSPITAL_MANAGEMENT_OOP-Debug-fcceea4e529b8c9eeb6e.json",
+========
+					"jsonFile" : "target-HOSPITAL_MANAGEMENT_OOP-Debug-0a81cfa079c71bd5b8d3.json",
+>>>>>>>> 32b41ed582631c2f22c100a01220d93eb78ce735:HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cba35ddae557b7470173.json
+					"name" : "HOSPITAL_MANAGEMENT_OOP",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug",
+		"source" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

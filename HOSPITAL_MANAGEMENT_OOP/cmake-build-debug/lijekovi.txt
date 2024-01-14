@@ -1,0 +1,33 @@
+Paracetamol Groznica Glavobolja Bolovi_u_tijelu
+Ibuprofen Groznica Upala Bolovi_u_tijelu
+Aspirin Glavobolja Upala
+Amoksiklav Infekcija Gripa
+Loratadin Alergija Kihanje Curenje_nosa
+Omeprazol Gastritis Refluks Žgaravica
+Diazepam Anksioznost Nesanica
+Kalcij_i_vitamin_D Osteoporoza Manjak_kalcija
+Metoprolol Visoki_krvni_tlak Angina_pektoris
+Ranitidin Čir_na_želucu Gastroezofagealna_refluksna_bolest
+Insulin Dijabetes_tipa_1 Dijabetes_tipa_2
+Levofloksacin Bakterijska_infekcija Pneumonija
+Morfij Jaka_bol Postoperativna_bol
+Fluoksetin Depresija Panični_poremećaj Opsesivno-kompulzivni_poremećaj
+Ketoprofen Upala Bolovi_u_zglobovima Reumatoidni_artritis
+Cetirizin Alergija Svrbež Osip
+Amlodipin Visoki_krvni_tlak Angina_pektoris
+Sertralin Depresija Socijalna_anksioznost PTSP
+Warfarin Tromboza Prevencija_embolije
+Prednizon Reumatoidni_artritis Astma Autoimune_bolesti
+Aciklovir Herpes Šindre
+Furosemid Zatajenje_srca Hipertenzija
+Ritalin ADHD Narkolepsija
+Clopidogrel Prevencija_srčanog_udara Prevencija_moždanog_udara
+Ibuprofen Gripa
+Rimantadin Gripa
+Zanamivir Gripa
+Oseltamivir Gripa
+Cetirizin Alergija
+Fexofenadin Alergija
+Montelukast Alergija
+Diphenhydramine Alergija
+
