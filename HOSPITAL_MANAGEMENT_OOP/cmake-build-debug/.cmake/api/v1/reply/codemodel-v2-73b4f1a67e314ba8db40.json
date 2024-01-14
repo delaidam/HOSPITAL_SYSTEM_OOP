@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "HOSPITAL_MANAGEMENT_OOP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-HOSPITAL_MANAGEMENT_OOP-Debug-0a81cfa079c71bd5b8d3.json",
+					"jsonFile" : "target-HOSPITAL_MANAGEMENT_OOP-Debug-baaa452cd0ab20d044db.json",
 					"name" : "HOSPITAL_MANAGEMENT_OOP",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug",
-		"source" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/HOSPITAL_MANAGEMENT_OOP"
+		"build" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug",
+		"source" : "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP"
 	},
 	"version" : 
 	{

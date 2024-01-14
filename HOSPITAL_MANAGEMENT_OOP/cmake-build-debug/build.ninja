@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target HOSPITAL_MANAGEMENT_OOP
 
@@ -49,38 +49,110 @@ cmake_ninja_workdir = C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITA
 
 build cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP: phony || CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/main.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/main.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
-  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\main.cpp.obj.d
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Account.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Account.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Account.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Login.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/Login.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
-  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Login.cpp.obj.d
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Child_Specialist.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Child_Specialist.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Child_Specialist.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/Hospital.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Doctor.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Doctor.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Doctor.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Gynecologist.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Gynecologist.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Gynecologist.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital_Management_System.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Hospital$ Management$ System.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Hospital_Management_System.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Hospital.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
   DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Hospital.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Apoteka.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/Apoteka.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
-  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Apoteka.cpp.obj.d
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Medicine.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Medicine.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Medicine.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Soba.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/Soba.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
-  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Soba.cpp.obj.d
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Patient.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Patient.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Patient.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
 
-build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Osoba.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/Osoba.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
-  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Osoba.cpp.obj.d
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Person.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Person.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Person.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Pharmacy.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Pharmacy.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Pharmacy.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Receptionist.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Receptionist.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Receptionist.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Room.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Room.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Room.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Snacks.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Snacks.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Snacks.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Staff.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Staff.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Staff.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Surgeon.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Surgeon.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Surgeon.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Worker.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Worker.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Worker.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/DoctorsSupport.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/DoctorsSupport.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\DoctorsSupport.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
+
+build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Feedback.cpp.obj: CXX_COMPILER__HOSPITAL_MANAGEMENT_OOP_Debug C$:/Users/dStore$ Kakanj/OneDrive$ -$ MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Feedback.cpp || cmake_object_order_depends_target_HOSPITAL_MANAGEMENT_OOP
+  DEP_FILE = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\Feedback.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
   OBJECT_FILE_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
@@ -93,7 +165,7 @@ build CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Osoba.cpp.obj: CXX_COMPILER__HOSPIT
 #############################################
 # Link the executable HOSPITAL_MANAGEMENT_OOP.exe
 
-build HOSPITAL_MANAGEMENT_OOP.exe: CXX_EXECUTABLE_LINKER__HOSPITAL_MANAGEMENT_OOP_Debug CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/main.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Login.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Apoteka.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Soba.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Osoba.cpp.obj
+build HOSPITAL_MANAGEMENT_OOP.exe: CXX_EXECUTABLE_LINKER__HOSPITAL_MANAGEMENT_OOP_Debug CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Account.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Child_Specialist.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Doctor.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Gynecologist.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital_Management_System.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Medicine.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Patient.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Person.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Pharmacy.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Receptionist.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Room.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Snacks.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Staff.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Surgeon.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Worker.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/DoctorsSupport.cpp.obj CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Feedback.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir
@@ -108,7 +180,7 @@ build HOSPITAL_MANAGEMENT_OOP.exe: CXX_EXECUTABLE_LINKER__HOSPITAL_MANAGEMENT_OO
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -119,7 +191,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP" -B"C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP" -B"C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -137,7 +209,7 @@ build HOSPITAL_MANAGEMENT_OOP: phony HOSPITAL_MANAGEMENT_OOP.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug
+# Folder: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug
 
 build all: phony HOSPITAL_MANAGEMENT_OOP.exe
 

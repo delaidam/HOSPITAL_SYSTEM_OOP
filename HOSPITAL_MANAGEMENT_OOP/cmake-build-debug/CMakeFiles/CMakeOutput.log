@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/MinGW/bin/c++.exe 
@@ -23,21 +23,21 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_dbfa5 && [1/2] Building C object CMakeFiles/cmTC_dbfa5.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_dbfa5.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_be235 && [1/2] Building C object CMakeFiles/cmTC_be235.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_be235.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_ef977 && [1/2] Building CXX object CMakeFiles/cmTC_ef977.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_ef977.exe
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_f13eb && [1/2] Building CXX object CMakeFiles/cmTC_f13eb.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_f13eb.exe
 
 
 

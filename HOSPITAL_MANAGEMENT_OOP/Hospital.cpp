@@ -1,11 +1,10 @@
 #include "Hospital.h"
-
-
+#include <memory>
 Hospital::Hospital()
 {
     choose = 0;
 }
-Hospital::Hospital(Person &object): name("hospital"), address("Zenica"), phone_num("123456789")
+Hospital::Hospital(Person &object): name("hospital"), address("Crkvice bb"), phone_num("123456789")
 {
     this->person = &object;
 
@@ -16,14 +15,14 @@ void Hospital::hospital_dis()
     cout << "\t\t\t* ************************************************************** * *" << endl;
     cout << "\t\t\t* * ********************************************************** * * *" << endl;
     cout << "\t\t\t* * *                                                          * * *" << endl;
-    cout << "\t\t\t* * *                     Odaberite opciju                     * * *" << endl;
+    cout << "\t\t\t* * *                    Izaberite zeljenu opciju:             * * *" << endl;
     cout << "\t\t\t* * *                                                          * * *" << endl;
-    cout << "\t\t\t* * *                      1) Apoteka                          * * *" << endl;
+    cout << "\t\t\t* * *                      1) Apoteka/Snacks                   * * *" << endl;
     cout << "\t\t\t* * *                      2) Doktori                          * * *" << endl;
     cout << "\t\t\t* * *                      3) Pacijenti                        * * *" << endl;
     cout << "\t\t\t* * *                      4) Osoblje                          * * *" << endl;
-    cout << "\t\t\t* * *                      5) Exit                             * * *" << endl;
-    cout << "\t\t\t* * ********************************************************** * * *" << endl;
+    cout << "\t\t\t* * *                      5) Dijagnoza-Lijekovi               * * *" << endl;
+    cout << "\t\t\t* * *                      6) Komentari i ocjene               * * *" << endl;
     cout << "\t\t\t* ************************************************************** * *" << endl;
     cout << "\t\t\t********************************************************************" << endl;
 }
@@ -31,89 +30,73 @@ void Hospital::set_choose(int c)
 {
     choose = c;
 }
-istream& operator>>(istream& is, Hospital& object)
+istream& operator>>(istream& stream, Hospital& h)
 {
 
 
 
-    if (object.choose == 1)
+    if (h.choose == 1)
     {
-        cout << "pharmacy" << endl;
-        is >> object.pharmacy;
-        return is;
+        cout << "Apoteka" << endl;
+        stream >> h.pharmacy;
+        return stream;
     }
-        /*else if (object.choose == 2)
-        {
-            cout << "room" << endl;
-            is >> object.room;
-            return is;
-        }*/
-    else if (object.choose == 5)
+
+    else if (h.choose == 5)
     {
-        cout << "Hvala Vam na povjerenju!" << endl;
-        return is;
+        cout << "Hvala na posjeti!" << endl;
+        return stream;
     }
 
 }
-ostream& operator<<(ostream& os,Hospital& object)
+ostream& operator<<(ostream& stream,Hospital& h)
 {
-    if (object.choose == 1)
+    if (h.choose == 1)
     {
 
-        os << object.pharmacy;
-        return os;
+        stream << h.pharmacy;
+        return stream;
     }
-    else if (object.choose == 2)
+    else if (h.choose == 2)
     {
 
-        os << object.room;
-        return os;
+        stream << h.room;
+        return stream;
     }
 
 
 }
 void Hospital::set_class_person()
 {
-    //this->person->set_person_name("AHSAN");
-    //this->person->set_person_phone("03355487492");
     this->person->display();
-    //cout << this->person->get_person_name();
-    //cout << this->person->get_person_phone();
 }
 
 void Hospital::set_class_person_gye()
 {
-    //this->person->set_person_name("AHSAN");
-    //this->person->set_person_phone("03355487492");
     this->person->display();
-    //cout << this->person->get_person_name();
-    //cout << this->person->get_person_phone();
-}
-void Hospital::set_class_person_cs()
-{
-    //this->person->set_person_name("AHSAN");
-    //this->person->set_person_phone("03355487492");
-    this->person->display();
-    //cout << this->person->get_person_name();
-    //cout << this->person->get_person_phone();
 }
 void Hospital::set_class_Patient()
 {
-    //this->person->set_person_name("AHSAN");
-    //this->person->set_person_phone("03355487492");
     this->person->display();
-    //cout << this->person->get_person_name();
-    //cout << this->person->get_person_phone();
 }
 void Hospital::set_class_staff()
 {
-    //this->person->set_person_name("AHSAN");
-    //this->person->set_person_phone("03355487492");
     this->person->display();
-    //cout << this->person->get_person_name();
-    //cout << this->person->get_person_phone();
 }
+
+
+void Hospital::setRooms() {
+    std::shared_ptr<Room> temp = std::make_shared<Room>();
+    for (int i = 0; i < rooms.size(); i++) {
+        temp->set_free_r(i);
+        this->rooms.push_back(*temp);
+    }
+}
+
+vector<Room> &Hospital::getRooms() {
+    return this->rooms;
+}
+
 Hospital::~Hospital()
 {
 }
-
