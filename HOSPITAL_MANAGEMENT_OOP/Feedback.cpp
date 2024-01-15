@@ -40,7 +40,6 @@ void Feedback::displayFeedback() {
     for (size_t i = 0; i < marks.size(); ++i) {
         std::string markText;
 
-        // Pretvori ocjenu u tekstualnu reprezentaciju
         switch (marks[i]) {
             case Mark::JAKO_LOSE:
                 markText = "JAKO LOSE";
@@ -59,7 +58,7 @@ void Feedback::displayFeedback() {
                 break;
         }
 
-        std::cout << "Ocjena: " << markText << ", Komentar: " << markText[i] << "\n";
+        std::cout << "Ocjena: " << markText << ", Komentar: " << comments[i] << "\n";
     }
 }
 

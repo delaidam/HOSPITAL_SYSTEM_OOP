@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HOSPITAL_MANAGEMENT_OOP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HOSPITAL_MANAGEMENT_OOP">
+				<Option output="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/HOSPITAL_MANAGEMENT_OOP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 HOSPITAL_MANAGEMENT_OOP"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HOSPITAL_MANAGEMENT_OOP/fast">
+				<Option output="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/HOSPITAL_MANAGEMENT_OOP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 HOSPITAL_MANAGEMENT_OOP/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Account.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Account.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Child_Specialist.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Child_Specialist.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Doctor.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Doctor.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/DoctorsSupport.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/DoctorsSupport.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Feedback.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Feedback.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Gynecologist.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Gynecologist.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Hospital Management System.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Hospital.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Hospital.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Medicine.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Medicine.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Patient.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Patient.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Person.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Person.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Pharmacy.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Pharmacy.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Receptionist.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Receptionist.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Room.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Room.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Snacks.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Snacks.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Staff.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Staff.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Surgeon.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Surgeon.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Worker.cpp">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/Worker.h">
+			<Option target="HOSPITAL_MANAGEMENT_OOP"/>
+		</Unit>
+		<Unit filename="C:/Users/dStore Kakanj/OneDrive - MSFT/Desktop/PROJEKAT_OOP/OOP_PROJEKAT/HOSPITAL_MANAGEMENT_OOP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\noviakobogdaposljednji
+CMAKE_SOURCE_DIR = "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\noviakobogdaposljednji\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\no
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\noviakobogdaposljednji\cmake-build-debug\CMakeFiles C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\noviakobogdaposljednji\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug\CMakeFiles" "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\smajl\Desktop\version203\noviakobogdaposljednji_2\noviakobogdaposljednji\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\dStore Kakanj\OneDrive - MSFT\Desktop\PROJEKAT_OOP\OOP_PROJEKAT\HOSPITAL_MANAGEMENT_OOP\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named noviakobogdaposljednji
+# Target rules for targets named HOSPITAL_MANAGEMENT_OOP
 
 # Build rule for target.
-noviakobogdaposljednji: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 noviakobogdaposljednji
-.PHONY : noviakobogdaposljednji
+HOSPITAL_MANAGEMENT_OOP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HOSPITAL_MANAGEMENT_OOP
+.PHONY : HOSPITAL_MANAGEMENT_OOP
 
 # fast build rule for target.
-noviakobogdaposljednji/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/build
-.PHONY : noviakobogdaposljednji/fast
+HOSPITAL_MANAGEMENT_OOP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/build
+.PHONY : HOSPITAL_MANAGEMENT_OOP/fast
 
 Account.obj: Account.cpp.obj
 .PHONY : Account.obj
 
 # target to build an object file
 Account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Account.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Account.cpp.obj
 .PHONY : Account.cpp.obj
 
 Account.i: Account.cpp.i
@@ -141,7 +141,7 @@ Account.i: Account.cpp.i
 
 # target to preprocess a source file
 Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Account.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Account.cpp.i
 .PHONY : Account.cpp.i
 
 Account.s: Account.cpp.s
@@ -149,7 +149,7 @@ Account.s: Account.cpp.s
 
 # target to generate assembly for a file
 Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Account.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Account.cpp.s
 .PHONY : Account.cpp.s
 
 Child_Specialist.obj: Child_Specialist.cpp.obj
@@ -157,7 +157,7 @@ Child_Specialist.obj: Child_Specialist.cpp.obj
 
 # target to build an object file
 Child_Specialist.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Child_Specialist.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Child_Specialist.cpp.obj
 .PHONY : Child_Specialist.cpp.obj
 
 Child_Specialist.i: Child_Specialist.cpp.i
@@ -165,7 +165,7 @@ Child_Specialist.i: Child_Specialist.cpp.i
 
 # target to preprocess a source file
 Child_Specialist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Child_Specialist.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Child_Specialist.cpp.i
 .PHONY : Child_Specialist.cpp.i
 
 Child_Specialist.s: Child_Specialist.cpp.s
@@ -173,7 +173,7 @@ Child_Specialist.s: Child_Specialist.cpp.s
 
 # target to generate assembly for a file
 Child_Specialist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Child_Specialist.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Child_Specialist.cpp.s
 .PHONY : Child_Specialist.cpp.s
 
 Doctor.obj: Doctor.cpp.obj
@@ -181,7 +181,7 @@ Doctor.obj: Doctor.cpp.obj
 
 # target to build an object file
 Doctor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Doctor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Doctor.cpp.obj
 .PHONY : Doctor.cpp.obj
 
 Doctor.i: Doctor.cpp.i
@@ -189,7 +189,7 @@ Doctor.i: Doctor.cpp.i
 
 # target to preprocess a source file
 Doctor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Doctor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Doctor.cpp.i
 .PHONY : Doctor.cpp.i
 
 Doctor.s: Doctor.cpp.s
@@ -197,7 +197,7 @@ Doctor.s: Doctor.cpp.s
 
 # target to generate assembly for a file
 Doctor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Doctor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Doctor.cpp.s
 .PHONY : Doctor.cpp.s
 
 DoctorsSupport.obj: DoctorsSupport.cpp.obj
@@ -205,7 +205,7 @@ DoctorsSupport.obj: DoctorsSupport.cpp.obj
 
 # target to build an object file
 DoctorsSupport.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/DoctorsSupport.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/DoctorsSupport.cpp.obj
 .PHONY : DoctorsSupport.cpp.obj
 
 DoctorsSupport.i: DoctorsSupport.cpp.i
@@ -213,7 +213,7 @@ DoctorsSupport.i: DoctorsSupport.cpp.i
 
 # target to preprocess a source file
 DoctorsSupport.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/DoctorsSupport.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/DoctorsSupport.cpp.i
 .PHONY : DoctorsSupport.cpp.i
 
 DoctorsSupport.s: DoctorsSupport.cpp.s
@@ -221,7 +221,7 @@ DoctorsSupport.s: DoctorsSupport.cpp.s
 
 # target to generate assembly for a file
 DoctorsSupport.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/DoctorsSupport.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/DoctorsSupport.cpp.s
 .PHONY : DoctorsSupport.cpp.s
 
 Feedback.obj: Feedback.cpp.obj
@@ -229,7 +229,7 @@ Feedback.obj: Feedback.cpp.obj
 
 # target to build an object file
 Feedback.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Feedback.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Feedback.cpp.obj
 .PHONY : Feedback.cpp.obj
 
 Feedback.i: Feedback.cpp.i
@@ -237,7 +237,7 @@ Feedback.i: Feedback.cpp.i
 
 # target to preprocess a source file
 Feedback.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Feedback.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Feedback.cpp.i
 .PHONY : Feedback.cpp.i
 
 Feedback.s: Feedback.cpp.s
@@ -245,7 +245,7 @@ Feedback.s: Feedback.cpp.s
 
 # target to generate assembly for a file
 Feedback.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Feedback.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Feedback.cpp.s
 .PHONY : Feedback.cpp.s
 
 Gynecologist.obj: Gynecologist.cpp.obj
@@ -253,7 +253,7 @@ Gynecologist.obj: Gynecologist.cpp.obj
 
 # target to build an object file
 Gynecologist.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Gynecologist.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Gynecologist.cpp.obj
 .PHONY : Gynecologist.cpp.obj
 
 Gynecologist.i: Gynecologist.cpp.i
@@ -261,7 +261,7 @@ Gynecologist.i: Gynecologist.cpp.i
 
 # target to preprocess a source file
 Gynecologist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Gynecologist.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Gynecologist.cpp.i
 .PHONY : Gynecologist.cpp.i
 
 Gynecologist.s: Gynecologist.cpp.s
@@ -269,7 +269,7 @@ Gynecologist.s: Gynecologist.cpp.s
 
 # target to generate assembly for a file
 Gynecologist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Gynecologist.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Gynecologist.cpp.s
 .PHONY : Gynecologist.cpp.s
 
 Hospital.obj: Hospital.cpp.obj
@@ -277,7 +277,7 @@ Hospital.obj: Hospital.cpp.obj
 
 # target to build an object file
 Hospital.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.obj
 .PHONY : Hospital.cpp.obj
 
 Hospital.i: Hospital.cpp.i
@@ -285,7 +285,7 @@ Hospital.i: Hospital.cpp.i
 
 # target to preprocess a source file
 Hospital.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.i
 .PHONY : Hospital.cpp.i
 
 Hospital.s: Hospital.cpp.s
@@ -293,7 +293,7 @@ Hospital.s: Hospital.cpp.s
 
 # target to generate assembly for a file
 Hospital.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital.cpp.s
 .PHONY : Hospital.cpp.s
 
 Hospital_Management_System.obj: Hospital_Management_System.cpp.obj
@@ -301,7 +301,7 @@ Hospital_Management_System.obj: Hospital_Management_System.cpp.obj
 
 # target to build an object file
 Hospital_Management_System.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital_Management_System.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital_Management_System.cpp.obj
 .PHONY : Hospital_Management_System.cpp.obj
 
 Hospital_Management_System.i: Hospital_Management_System.cpp.i
@@ -309,7 +309,7 @@ Hospital_Management_System.i: Hospital_Management_System.cpp.i
 
 # target to preprocess a source file
 Hospital_Management_System.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital_Management_System.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital_Management_System.cpp.i
 .PHONY : Hospital_Management_System.cpp.i
 
 Hospital_Management_System.s: Hospital_Management_System.cpp.s
@@ -317,7 +317,7 @@ Hospital_Management_System.s: Hospital_Management_System.cpp.s
 
 # target to generate assembly for a file
 Hospital_Management_System.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Hospital_Management_System.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Hospital_Management_System.cpp.s
 .PHONY : Hospital_Management_System.cpp.s
 
 Medicine.obj: Medicine.cpp.obj
@@ -325,7 +325,7 @@ Medicine.obj: Medicine.cpp.obj
 
 # target to build an object file
 Medicine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Medicine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Medicine.cpp.obj
 .PHONY : Medicine.cpp.obj
 
 Medicine.i: Medicine.cpp.i
@@ -333,7 +333,7 @@ Medicine.i: Medicine.cpp.i
 
 # target to preprocess a source file
 Medicine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Medicine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Medicine.cpp.i
 .PHONY : Medicine.cpp.i
 
 Medicine.s: Medicine.cpp.s
@@ -341,7 +341,7 @@ Medicine.s: Medicine.cpp.s
 
 # target to generate assembly for a file
 Medicine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Medicine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Medicine.cpp.s
 .PHONY : Medicine.cpp.s
 
 Patient.obj: Patient.cpp.obj
@@ -349,7 +349,7 @@ Patient.obj: Patient.cpp.obj
 
 # target to build an object file
 Patient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Patient.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Patient.cpp.obj
 .PHONY : Patient.cpp.obj
 
 Patient.i: Patient.cpp.i
@@ -357,7 +357,7 @@ Patient.i: Patient.cpp.i
 
 # target to preprocess a source file
 Patient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Patient.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Patient.cpp.i
 .PHONY : Patient.cpp.i
 
 Patient.s: Patient.cpp.s
@@ -365,7 +365,7 @@ Patient.s: Patient.cpp.s
 
 # target to generate assembly for a file
 Patient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Patient.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Patient.cpp.s
 .PHONY : Patient.cpp.s
 
 Person.obj: Person.cpp.obj
@@ -373,7 +373,7 @@ Person.obj: Person.cpp.obj
 
 # target to build an object file
 Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Person.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Person.cpp.obj
 .PHONY : Person.cpp.obj
 
 Person.i: Person.cpp.i
@@ -381,7 +381,7 @@ Person.i: Person.cpp.i
 
 # target to preprocess a source file
 Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Person.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Person.cpp.i
 .PHONY : Person.cpp.i
 
 Person.s: Person.cpp.s
@@ -389,7 +389,7 @@ Person.s: Person.cpp.s
 
 # target to generate assembly for a file
 Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Person.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
 Pharmacy.obj: Pharmacy.cpp.obj
@@ -397,7 +397,7 @@ Pharmacy.obj: Pharmacy.cpp.obj
 
 # target to build an object file
 Pharmacy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Pharmacy.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Pharmacy.cpp.obj
 .PHONY : Pharmacy.cpp.obj
 
 Pharmacy.i: Pharmacy.cpp.i
@@ -405,7 +405,7 @@ Pharmacy.i: Pharmacy.cpp.i
 
 # target to preprocess a source file
 Pharmacy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Pharmacy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Pharmacy.cpp.i
 .PHONY : Pharmacy.cpp.i
 
 Pharmacy.s: Pharmacy.cpp.s
@@ -413,7 +413,7 @@ Pharmacy.s: Pharmacy.cpp.s
 
 # target to generate assembly for a file
 Pharmacy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Pharmacy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Pharmacy.cpp.s
 .PHONY : Pharmacy.cpp.s
 
 Receptionist.obj: Receptionist.cpp.obj
@@ -421,7 +421,7 @@ Receptionist.obj: Receptionist.cpp.obj
 
 # target to build an object file
 Receptionist.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Receptionist.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Receptionist.cpp.obj
 .PHONY : Receptionist.cpp.obj
 
 Receptionist.i: Receptionist.cpp.i
@@ -429,7 +429,7 @@ Receptionist.i: Receptionist.cpp.i
 
 # target to preprocess a source file
 Receptionist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Receptionist.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Receptionist.cpp.i
 .PHONY : Receptionist.cpp.i
 
 Receptionist.s: Receptionist.cpp.s
@@ -437,7 +437,7 @@ Receptionist.s: Receptionist.cpp.s
 
 # target to generate assembly for a file
 Receptionist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Receptionist.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Receptionist.cpp.s
 .PHONY : Receptionist.cpp.s
 
 Room.obj: Room.cpp.obj
@@ -445,7 +445,7 @@ Room.obj: Room.cpp.obj
 
 # target to build an object file
 Room.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Room.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Room.cpp.obj
 .PHONY : Room.cpp.obj
 
 Room.i: Room.cpp.i
@@ -453,7 +453,7 @@ Room.i: Room.cpp.i
 
 # target to preprocess a source file
 Room.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Room.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Room.cpp.i
 .PHONY : Room.cpp.i
 
 Room.s: Room.cpp.s
@@ -461,7 +461,7 @@ Room.s: Room.cpp.s
 
 # target to generate assembly for a file
 Room.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Room.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Room.cpp.s
 .PHONY : Room.cpp.s
 
 Snacks.obj: Snacks.cpp.obj
@@ -469,7 +469,7 @@ Snacks.obj: Snacks.cpp.obj
 
 # target to build an object file
 Snacks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Snacks.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Snacks.cpp.obj
 .PHONY : Snacks.cpp.obj
 
 Snacks.i: Snacks.cpp.i
@@ -477,7 +477,7 @@ Snacks.i: Snacks.cpp.i
 
 # target to preprocess a source file
 Snacks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Snacks.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Snacks.cpp.i
 .PHONY : Snacks.cpp.i
 
 Snacks.s: Snacks.cpp.s
@@ -485,7 +485,7 @@ Snacks.s: Snacks.cpp.s
 
 # target to generate assembly for a file
 Snacks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Snacks.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Snacks.cpp.s
 .PHONY : Snacks.cpp.s
 
 Staff.obj: Staff.cpp.obj
@@ -493,7 +493,7 @@ Staff.obj: Staff.cpp.obj
 
 # target to build an object file
 Staff.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Staff.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Staff.cpp.obj
 .PHONY : Staff.cpp.obj
 
 Staff.i: Staff.cpp.i
@@ -501,7 +501,7 @@ Staff.i: Staff.cpp.i
 
 # target to preprocess a source file
 Staff.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Staff.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Staff.cpp.i
 .PHONY : Staff.cpp.i
 
 Staff.s: Staff.cpp.s
@@ -509,7 +509,7 @@ Staff.s: Staff.cpp.s
 
 # target to generate assembly for a file
 Staff.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Staff.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Staff.cpp.s
 .PHONY : Staff.cpp.s
 
 Surgeon.obj: Surgeon.cpp.obj
@@ -517,7 +517,7 @@ Surgeon.obj: Surgeon.cpp.obj
 
 # target to build an object file
 Surgeon.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Surgeon.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Surgeon.cpp.obj
 .PHONY : Surgeon.cpp.obj
 
 Surgeon.i: Surgeon.cpp.i
@@ -525,7 +525,7 @@ Surgeon.i: Surgeon.cpp.i
 
 # target to preprocess a source file
 Surgeon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Surgeon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Surgeon.cpp.i
 .PHONY : Surgeon.cpp.i
 
 Surgeon.s: Surgeon.cpp.s
@@ -533,7 +533,7 @@ Surgeon.s: Surgeon.cpp.s
 
 # target to generate assembly for a file
 Surgeon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Surgeon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Surgeon.cpp.s
 .PHONY : Surgeon.cpp.s
 
 Worker.obj: Worker.cpp.obj
@@ -541,7 +541,7 @@ Worker.obj: Worker.cpp.obj
 
 # target to build an object file
 Worker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Worker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Worker.cpp.obj
 .PHONY : Worker.cpp.obj
 
 Worker.i: Worker.cpp.i
@@ -549,7 +549,7 @@ Worker.i: Worker.cpp.i
 
 # target to preprocess a source file
 Worker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Worker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Worker.cpp.i
 .PHONY : Worker.cpp.i
 
 Worker.s: Worker.cpp.s
@@ -557,7 +557,7 @@ Worker.s: Worker.cpp.s
 
 # target to generate assembly for a file
 Worker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\noviakobogdaposljednji.dir\build.make CMakeFiles/noviakobogdaposljednji.dir/Worker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\build.make CMakeFiles/HOSPITAL_MANAGEMENT_OOP.dir/Worker.cpp.s
 .PHONY : Worker.cpp.s
 
 # Help Target
@@ -568,7 +568,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... noviakobogdaposljednji
+	@echo ... HOSPITAL_MANAGEMENT_OOP
 	@echo ... Account.obj
 	@echo ... Account.i
 	@echo ... Account.s

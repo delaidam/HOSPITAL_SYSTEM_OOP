@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir/objects.a @CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir/objects.a -Wl,--no-whole-archive -o HOSPITAL_MANAGEMENT_OOP.exe -Wl,--out-implib,libHOSPITAL_MANAGEMENT_OOP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HOSPITAL_MANAGEMENT_OOP.dir\linklibs.rsp
